@@ -17,6 +17,6 @@
     include_once('new.php');
     ?></h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et temporibus alias unde dolorum eaque ullam, debitis amet asperiores porro voluptatum officia nemo eum sapiente cumque enim deserunt rem numquam. Fuga!</p>
-
+123
 </body>
 </html>

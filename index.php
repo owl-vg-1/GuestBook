@@ -12,6 +12,9 @@
 </head>
 <body>
     <h1>Старт гостевой книги111<h1>
-    <p>Lorem, ipsum dolor sit amet. Et temporibus alias unde dolorum eaque ullam, debitis amet asperiores porro voluptatum officia nemo eum sapiente cumque enim deserunt rem numquam. Fuga!</p>
+
+    <h2> <?php include_once('new.php');?></h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et temporibus alias unde dolorum eaque ullam, debitis amet asperiores porro voluptatum officia nemo eum sapiente cumque enim deserunt rem numquam. Fuga!</p>
+
 </body>
 </html>

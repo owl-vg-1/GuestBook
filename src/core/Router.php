@@ -4,8 +4,8 @@ namespace App\Core;
 class Router {
     public function __construct()
     {
-        $this->controllerName = (isset($_GET["t"]) ? $_GET["t"] : 'site') . 'Controller';
-        $this->methodName = 'action' . (isset($_GET["a"]) ? $_GET["a"] : 'home');
+        $this->controllerName = ($_GET["t"] ?? 'site') . 'Controller';
+        $this->actionName = 'action' . ($_GET["a"] ?? 'home');
         // $view = 'siteView';
     }
 
@@ -17,7 +17,7 @@ class Router {
                 if (method_exists($MVC, $this->actionName)) {
                     $MVC->{$this->actionName}();
                 } else {
-                    echo "нет такого метода: $this->methodName";
+                    echo "нет такого метода: $this->actionName";
                     // (new ErrorController())->notFoundAction($this->actionName);
                 }
             } else {

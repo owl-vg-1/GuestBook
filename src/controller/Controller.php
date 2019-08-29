@@ -1,10 +1,13 @@
 <?php
 namespace App\Controller;
+
+use App\View\View;
+
 abstract class Controller{
     public $view;
 
-    function __construct($view){
-        $this->view = $view;
+    function __construct(){
+        $this->view = new View();
     }
 
     function render ($viewName, $viewData =[])

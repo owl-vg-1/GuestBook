@@ -1,12 +1,12 @@
 <?php
-namespace App\siteView;
-class siteView 
+namespace App\View;
+class View 
 {
 
     public $viewName;
     public $viewData;
-    public $viewPath = "views/site/";
-    public $layoutsPath = "views/layouts/mainLayoyt.php";
+    public $viewPath = __DIR__."/../../templates/site/";
+    public $layoutsPath = __DIR__."/../../templates/_layouts/mainLayout.php";
 
     function __construct()
     {

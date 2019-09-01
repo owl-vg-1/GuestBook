@@ -28,13 +28,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item active p-2">
-                        <a href="?t=product&a=showtable" class="text-success font-weight-bold">Товары<span class="sr-only">(current)</span></a>
+                        <a href="?t=Feedback&a=ShowForm" class="text-success font-weight-bold">Обратная связь<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item p-2">
                         <a href="?t=product&a=ShowContacts" class="text-success font-weight-bold">Показать контакты</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a href="?t=categories&a=showtable" class="text-success font-weight-bold">Категории</a>
+                        <a href="?t=site&a=About" class="text-success font-weight-bold">О нас</a>
                     </li>
                     <li class="nav-item p-2">
                         <a href="?t=site&a=home" class="text-success font-weight-bold">Home</a>

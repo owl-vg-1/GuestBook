@@ -17,9 +17,4 @@ class siteController extends Controller{
         ]);
     }
 
-
-
-
-
-
 }

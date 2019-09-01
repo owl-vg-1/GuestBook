@@ -6,3 +6,11 @@ body {
 h2 {
     color: green;
 }
+
+form.feedback {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    color: coral;
+    margin-top: 150px;
+}

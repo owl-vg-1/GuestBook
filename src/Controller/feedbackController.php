@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 class feedbackController extends Controller{
+    use  phpProcessingController;
+    private $file_name ='abs.php';
 
 
     function actionShowForm (){
@@ -11,10 +13,12 @@ class feedbackController extends Controller{
             ]);
     }
 
-    function actionProcessingFeedbackForm (){
-        print_r($_POST);
-        
-        
+    function actionProcessingFeedbackForm(){
+        // print_r($_POST);
+        $this->write_file_php($_POST);
+
+
+
     //     $this->render("feedbackForm", [
     //     'form' => "Форма обратной связи тут!"
     // ]);
